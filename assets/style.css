@@ -7,6 +7,47 @@ body {
 
 }
 
+.btn-pesan {
+  color: rgb(61, 60, 60);
+  font-weight: 600;
+  background-color: pink;
+  border: palevioletred 4px solid;
+  border-radius: 30px;
+
+}
+
+.fade-in {
+  animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.btn-pesan:hover {
+  transition: all 1s;
+  background: pink;
+  border: palevioletred 4px solid;
+  box-shadow: 0 0 5px rgb(255, 150, 185), 0 0 25px rgb(255, 150, 185), 0 0 50px rgb(255, 150, 185), 0 0 100px rgb(255, 150, 185);
+  /* border: 0; */
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .kontener {
   margin: 100px auto;
 }

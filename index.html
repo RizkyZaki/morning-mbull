@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>For Youu Mbull :)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
@@ -378,8 +380,8 @@
       <circle class="humo st5" cx="2500" cy="560" r="196" />
       <circle class="humo st5" cx="2600" cy="560" r="196" />
       <text class="happy" x="1750" y="500" text-anchor="middle">Happy New Year! mbull</text>
-      <text class="happy from" x="930" y="700">Semoga tahun 2023 kita menjadi</text>
-      <text class="happy from" x="930" y="900">lebih baik lagi baeee ~zach</text>
+      <text class="happy from" x="930" y="700">Semoga tahun 2023 menjadi</text>
+      <text class="happy from" x="930" y="900">tahun terbaik buat baeee</text>
       <g id="nave">
         <path class="st17" d="M2876.5 491.4v-13.5l-107.2 5.9z" />
         <ellipse id="humo3_1_" class="st19" cx="2802.2" cy="484.1" rx="2.9" ry="8" />
@@ -402,7 +404,17 @@
           stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="9,3" />
       </g>
     </svg>
+    <div class="button">
+      <a href="page2.html" class="btn mt-4 btn-pesan none">kamu boleh klik ini sayang</a>
+    </div>
   </div>
+  <script>
+    let fadein = document.querySelector('.btn-pesan')
+    setTimeout(() => {
+      fadein.classList.add('fade-in')
+      fadein.classList.remove('none')
+    }, 7000)
+  </script>
 </body>
 
 </html>
